@@ -34,4 +34,4 @@ For Development
 
 ### License
 
-Source code is licensed under [MS-PL](http://opensource.org/licenses/MS-PL)
+Source code is licensed under [MS-PL](LICENSE)

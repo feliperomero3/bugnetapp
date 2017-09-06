@@ -1,0 +1,63 @@
+﻿#---------------------------------#
+#      general configuration      #
+#---------------------------------#
+
+# version format
+version: 1.0.0.{build}
+
+
+#---------------------------------#
+#    environment configuration    #
+#---------------------------------#
+
+# enable patching of AssemblyInfo.* files
+
+assembly_info:
+  patch: true
+  file: src\Common\GlobalAssemblyInfo.cs
+  assembly_version: "{version}"
+  assembly_file_version: "{version}"
+  assembly_informational_version: "{version}"
+
+
+#---------------------------------#
+#       build configuration       #
+#---------------------------------#
+    
+# build Configuration, i.e. Debug, Release, etc.
+configuration: Release
+
+build:
+  project: src\BugNET.sln
+  verbosity: minimal
+  publish_wap: true     
+
+# scripts to run before build
+before_build:
+  - nuget restore src\BugNET.sln
+
+#---------------------------------#
+#       tests configuration       #
+#---------------------------------#
+test: off
+
+
+#---------------------------------#
+#      artifacts configuration    #
+#---------------------------------#
+
+# web deploy artifacts are copied already
+
+#---------------------------------#
+#     deployment configuration    #
+#---------------------------------#
+
+
+#---------------------------------#
+#        global handlers          #
+#---------------------------------#
+
+
+#---------------------------------#
+#         notifications           #
+#---------------------------------#

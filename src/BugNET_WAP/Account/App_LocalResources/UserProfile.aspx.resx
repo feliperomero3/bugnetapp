@@ -172,10 +172,10 @@
     <value>Your custom settings could not be updated.</value>
   </data>
   <data name="UpdateProfileForOpenId" xml:space="preserve">
-    <value>Please take the time to validate your profile, inorder to receive notifications you will need a valid email address.</value>
+    <value>Please take the time to validate your profile, in order to receive notifications you will need a valid email address.</value>
   </data>
   <data name="AllowNotifications.Text" xml:space="preserve">
-    <value>Recieve email notifications:</value>
+    <value>Receive email notifications:</value>
   </data>
   <data name="CurrentPassword.Text" xml:space="preserve">
     <value>Enter your old password:</value>

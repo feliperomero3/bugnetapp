@@ -171,4 +171,19 @@
   <data name="CurrentPassword.Text" xml:space="preserve">
     <value>Ingresa tu contraseña anterior:</value>
   </data>
+  <data name="CustomSettingsSaved" xml:space="preserve">
+    <value>Su configuración personalizada se ha actualizado correctamente.</value>
+  </data>
+  <data name="CustomSettingsUpdateError" xml:space="preserve">
+    <value>No se pudo actualizar la configuración personalizada.</value>
+  </data>
+  <data name="PasswordStrength.PrefixText" xml:space="preserve">
+    <value>Fuerza:&amp;nbsp;</value>
+  </data>
+  <data name="PasswordStrength.TextStrengthDescriptions" xml:space="preserve">
+    <value>Muy pobre;débil;promedio;fuerte;excelente</value>
+  </data>
+  <data name="SecurityQuestionChanged" xml:space="preserve">
+    <value>Se cambió la pregunta de seguridad con éxito.</value>
+  </data>
 </root>
